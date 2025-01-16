@@ -9,6 +9,11 @@
 double getRandom();
 
 /**
+ * Generate a random int between min (included) and max (excluded)
+ */
+int getRandomInt(int, int);
+
+/**
  * Generate a random floating number using a Gaussian law
  * @param mu, sigma parameter of the Gaussian law
  */

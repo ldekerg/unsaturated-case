@@ -11,6 +11,11 @@ double getRandom()
   return static_cast<double>(rand()) / RAND_MAX;
 }
 
+int getRandomInt(int min, int max)
+{
+  return rand() % (max - min) + min;
+}
+
 double getRandomGaussian(double mu, double sigma)
 {
   std::normal_distribution<double> distribution(mu, sigma);
